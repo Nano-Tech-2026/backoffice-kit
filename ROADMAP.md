@@ -16,21 +16,21 @@ between parts and becomes `done` only after the last part is merged.
 | ID  | Module               | Repo           | Type    | Depends on                    | Status | PR |
 |-----|----------------------|----------------|---------|-------------------------------|--------|----|
 | M01 | Config loader        | core-config    | lib     | –                             | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M02 | Structured logger    | core-logger    | lib     | M01                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M03 | HTTP app foundation  | core-http      | lib     | M01, M02                      | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M04 | Auth service         | auth-service   | service | M03                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M05 | RBAC middleware      | rbac           | lib     | M04                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M06 | Audit log            | audit-log      | service | M05                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M07 | Notifications        | notify-service | service | M05                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M08 | File storage         | file-service   | service | M05                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M09 | Reports (PDF/Excel)  | report-service | service | M08                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M10 | Job scheduler        | job-scheduler  | service | M07, M09                      | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M11 | API gateway          | api-gateway    | service | M04, M06, M07, M08, M09, M10  | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M12 | Admin dashboard      | admin-ui       | app     | M11                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M13 | One-command stack    | docker-stack   | infra   | M11, M12                      | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M14 | Observability        | observability  | infra   | M13                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M15 | End-to-end tests     | e2e-tests      | test    | M13                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
-| M16 | Documentation site   | docs-site      | docs    | M13                           | review | [#1](https://github.com/Nano-Tech-2026/core-config/pull/1)  |
+| M02 | Structured logger    | core-logger    | lib     | M01                           | todo | – |
+| M03 | HTTP app foundation  | core-http      | lib     | M01, M02                      | todo | – |
+| M04 | Auth service         | auth-service   | service | M03                           | todo | – |
+| M05 | RBAC middleware      | rbac           | lib     | M04                           | todo | – |
+| M06 | Audit log            | audit-log      | service | M05                           | todo | – |
+| M07 | Notifications        | notify-service | service | M05                           | todo | – |
+| M08 | File storage         | file-service   | service | M05                           | todo | – |
+| M09 | Reports (PDF/Excel)  | report-service | service | M08                           | todo | – |
+| M10 | Job scheduler        | job-scheduler  | service | M07, M09                      | todo | – |
+| M11 | API gateway          | api-gateway    | service | M04, M06, M07, M08, M09, M10  | todo | – |
+| M12 | Admin dashboard      | admin-ui       | app     | M11                           | todo | – |
+| M13 | One-command stack    | docker-stack   | infra   | M11, M12                      | todo | – |
+| M14 | Observability        | observability  | infra   | M13                           | todo | – |
+| M15 | End-to-end tests     | e2e-tests      | test    | M13                           | todo | – |
+| M16 | Documentation site   | docs-site      | docs    | M13                           | todo | – |
 
 ## Acceptance criteria
 
